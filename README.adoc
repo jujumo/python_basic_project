@@ -2,3 +2,12 @@
 
 yet another basic python project structure
 
+.$>terminal
+[source,bash]
+----
+$> git clone https://github.com/jujumo/python_basic_project.git
+$> cd python_basic_project
+$> python -m venv .venv
+$> .venv/Scripts/activate
+$> python -m pip install -e .
+----
