@@ -11,3 +11,5 @@ dependencies = [ "pyyaml","configargparse"]
 [project.scripts]
 do_bad="python_basic_project.actions:do_bad"
 
+[tool.setuptools]
+packages = ["python_basic_project"]
