@@ -10,4 +10,9 @@ $> cd python_basic_project
 $> python -m venv .venv
 $> .venv/Scripts/activate
 $> python -m pip install -e .
+$> do_bad
+*---[)
+$>  do_bad -c python_basic_project/samples/french.yaml
+*---[)
+Blondin, tu veux que je te dise, t'es le plus grand dÃ©gueulasse que... que... que la Terre ait jamais portÃ© !
 ----
