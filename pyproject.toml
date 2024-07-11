@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "python_basic_project"
+version="2024.07"
+
+dependencies = [ "pyyaml","configargparse"]
+
+[project.scripts]
+do_bad="python_basic_project.actions:do_bad"
+

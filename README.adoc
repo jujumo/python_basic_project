@@ -1,0 +1,4 @@
+= python basic project
+
+yet another basic python project structure
+

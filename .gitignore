@@ -1,0 +1,4 @@
+python_basic_project.egg-info/
+.venv/
+.idea/
+__pycache__
