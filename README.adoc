@@ -11,8 +11,11 @@ $> python -m venv .venv
 $> .venv/Scripts/activate
 $> python -m pip install -e .
 $> do_bad
-*---[)
+*---[) : grr !
+$> do_bad --complains.bad Blondin
+*---[) : Blondin
 $>  do_bad -c samples/french.yaml
-*---[)
-Blondin, tu veux que je te dise, t'es le plus grand dÃ©gueulasse que... que... que la Terre ait jamais portÃ© !
+*---[) : Blondin, tu veux que je te dise, ...
+$> do_bad -c samples/french.yaml --complains.bad Mute
+*---[) : Mute
 ----
