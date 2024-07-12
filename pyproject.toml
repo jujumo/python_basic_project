@@ -5,8 +5,9 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "python_basic_project"
 version="2024.07"
+readme = {file = "readme.adoc", content-type = "text/markdown"}
 
-dependencies = [ "pyyaml","configargparse"]
+dependencies = [ "pyyaml","jsonargparse"]
 
 [project.scripts]
 do_bad="python_basic_project.actions:do_bad"
